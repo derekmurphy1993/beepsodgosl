@@ -63,6 +63,13 @@ p.lead {
     margin-right: 1rem;
     &:last-child {
       margin-right: 0;
+      width: 7.5rem;
+      border-radius: 10px;
+      background-color: $primary;
+      &:hover{
+        background-color: lighten($primary, 15%);
+        text-decoration: none;
+      }
     }
     &:hover {
       background-color: $primary;
@@ -76,5 +83,27 @@ p.lead {
     &:hover {
       color: $primary;
     }
+  }
+}
+
+.dropit {
+  box-shadow: 4px 4px 15px lighten($gray-600, 30%);
+}
+
+.project_link {
+    color: $white !important;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+    margin-right: 10px;
+    width: 7.5rem;
+    border-radius: 10px;
+    background-color: $primary;
+    display: inline-block;
+    height: 3.5rem;
+    &:hover{
+      background-color: lighten($primary, 15%);
+      text-decoration: none;
   }
 }
