@@ -69,6 +69,14 @@ p.lead {
 
 .social-icons a:last-child {
   margin-right: 0;
+  width: 7.5rem;
+  border-radius: 10px;
+  background-color: #BD5D38;
+}
+
+.social-icons a:last-child:hover {
+  background-color: #d48a6e;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
@@ -81,6 +89,29 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
+}
+
+.dropit {
+  box-shadow: 4px 4px 15px #d8dbdd;
+}
+
+.project_link {
+  color: #fff !important;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+  margin-right: 10px;
+  width: 7.5rem;
+  border-radius: 10px;
+  background-color: #BD5D38;
+  display: inline-block;
+  height: 3.5rem;
+}
+
+.project_link:hover {
+  background-color: #d48a6e;
+  text-decoration: none;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
